@@ -9,7 +9,7 @@ export function Footer() {
       <div className="sr-only" aria-hidden="true">
         Sri Vijaya Durga Cars And Travels — best car rental service in Amalapuram, Andhra Pradesh.
         Book outstation cab from Amalapuram to Hyderabad, Visakhapatnam, Vijayawada, Tirupati, Rajahmundry.
-        Toyota Innova Crysta hire Amalapuram. Tempo Traveller booking Amalapuram. Sedan taxi Amalapuram.
+        Toyota Innova Crysta hire Amalapuram. Sedan taxi Amalapuram.
         Airport transfer Rajahmundry airport. Airport cab Vizag airport. Wedding car rental Amalapuram.
         Corporate cab service Amalapuram. 24 hour taxi Amalapuram. Local cab Amalapuram. Tour packages Amalapuram.
         Araku Valley tour from Amalapuram. Tirupati tour cab Amalapuram. East Godavari car travels.
@@ -45,7 +45,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-lg text-gold mb-4">Our Fleet</h4>
             <ul className="space-y-2 text-sm text-foreground/60">
-              {["Sedan — Etios / Dzire", "Innova Crysta", "Tempo Traveller", "Fortuner / Luxury", "Camry", "Custom Fleet"].map((s) => (
+              {["Sedan — Etios / Dzire", "Innova Crysta", "Fortuner / Luxury", "Camry", "Custom Fleet"].map((s) => (
                 <li key={s} className="hover:text-gold cursor-pointer transition-colors">{s}</li>
               ))}
             </ul>
