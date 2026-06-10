@@ -4,9 +4,9 @@ import { X } from "lucide-react";
 import { Section } from "./Section";
 import sedanImg from "@/assets/car-sedan.jpg";
 import innovaImg from "@/assets/car-innova.jpg";
+import tempoImg from "@/assets/car-tempo.jpg";
 import ertigaImg from "@/assets/car-ertiga.jpg";
 import amazeImg from "@/assets/car-amaze.jpg";
-
 
 interface PackageRow {
   package: string;
@@ -65,7 +65,25 @@ const cars: CarItem[] = [
       { package: "Driver Bata", details: "Per Day", rate: "₹500" },
     ],
   },
-
+  {
+    type: "Group Travel",
+    name: "Tempo Traveller",
+    models: "Force Traveller 12–17 Seater",
+    seats: "12–17 Seater",
+    features: ["AC", "Push-back Seats", "Music", "Luggage Space"],
+    price: "₹22/km",
+    image: tempoImg,
+    accentColor: "#8b6914",
+    packages: [
+      { package: "4 Hours", details: "40 KM Limit", rate: "₹3,500" },
+      { package: "8 Hours", details: "80 KM Limit", rate: "₹6,000" },
+      { package: "Extra KM", details: "After Limit", rate: "₹25/KM" },
+      { package: "Extra Hour", details: "After 8 Hours", rate: "₹300/Hour" },
+      { package: "Outstation", details: "Per KM", rate: "₹22/KM" },
+      { package: "Minimum KM", details: "Outstation", rate: "400 KM" },
+      { package: "Driver Bata", details: "Per Day", rate: "₹500" },
+    ],
+  },
   {
     type: "Family MPV",
     name: "Ertiga",
@@ -86,9 +104,9 @@ const cars: CarItem[] = [
     ],
   },
   {
-    type: "Compact Sedan",
-    name: "Honda Amaze",
-    models: "Honda Amaze",
+    type: "Hatchback Class",
+    name: "Baleno",
+    models: "Maruti Suzuki Baleno",
     seats: "4 Seater",
     features: ["AC", "Music System", "GPS", "Comfort Seats"],
     price: "₹1,600 / 4 hrs",
@@ -222,7 +240,7 @@ function CarCard({ car, index, onBookNow }: { car: CarItem; index: number; onBoo
              style={{ background: "radial-gradient(ellipse at top, rgba(255,240,200,0.18), transparent 60%)" }} />
         <img
           src={car.image}
-          alt={`${car.name} — ${car.models}`}
+          alt={`${car.name} — ${car.models} car rental Amalapuram`}
           loading="lazy"
           width={1024}
           height={1024}
