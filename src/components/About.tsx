@@ -25,7 +25,7 @@ export function About() {
             Sri Vijaya Durga Cars And Travels is Amalapuram's most trusted car rental &amp; cab service, proudly serving
             passengers across Andhra Pradesh and Telangana. From local city drops and outstation trips
             to airport transfers, wedding cars, and tour packages — we deliver every journey with
-            professionalism, comfort, and care. Whether you need a Sedan, Innova Crysta, Tempo Traveller,
+            professionalism, comfort, and care. Whether you need a Sedan, Innova Crysta,
             Maruti Ertiga, or Honda Amaze, our well-maintained AC fleet is available 24/7. Covering
             Amalapuram to Hyderabad, Visakhapatnam, Vijayawada, Tirupati, Rajahmundry and beyond.
           </p>

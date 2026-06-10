@@ -4,7 +4,6 @@ import { X } from "lucide-react";
 import { Section } from "./Section";
 import sedanImg from "@/assets/car-sedan.jpg";
 import innovaImg from "@/assets/car-innova.jpg";
-import tempoImg from "@/assets/car-tempo.jpg";
 import ertigaImg from "@/assets/car-ertiga.jpg";
 import amazeImg from "@/assets/car-amaze.jpg";
 
@@ -61,25 +60,6 @@ const cars: CarItem[] = [
       { package: "Extra KM", details: "After Limit", rate: "₹20/KM" },
       { package: "Extra Hour", details: "After 8 Hours", rate: "₹200/Hour" },
       { package: "Outstation", details: "Per KM", rate: "₹18/KM" },
-      { package: "Minimum KM", details: "Outstation", rate: "400 KM" },
-      { package: "Driver Bata", details: "Per Day", rate: "₹500" },
-    ],
-  },
-  {
-    type: "Group Travel",
-    name: "Tempo Traveller",
-    models: "Force Traveller 12–17 Seater",
-    seats: "12–17 Seater",
-    features: ["AC", "Push-back Seats", "Music", "Luggage Space"],
-    price: "₹22/km",
-    image: tempoImg,
-    accentColor: "#8b6914",
-    packages: [
-      { package: "4 Hours", details: "40 KM Limit", rate: "₹3,500" },
-      { package: "8 Hours", details: "80 KM Limit", rate: "₹6,000" },
-      { package: "Extra KM", details: "After Limit", rate: "₹25/KM" },
-      { package: "Extra Hour", details: "After 8 Hours", rate: "₹300/Hour" },
-      { package: "Outstation", details: "Per KM", rate: "₹22/KM" },
       { package: "Minimum KM", details: "Outstation", rate: "400 KM" },
       { package: "Driver Bata", details: "Per Day", rate: "₹500" },
     ],

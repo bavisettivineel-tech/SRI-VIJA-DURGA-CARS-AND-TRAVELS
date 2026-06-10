@@ -15,7 +15,7 @@ const initial = {
 };
 
 const trips = ["Local City Drop", "Outstation Trip", "Airport Transfer", "Tour Package", "Wedding / Event", "Corporate Travel", "Hourly Rental"];
-const vehicles = ["Sedan (4 Seater)", "SUV Innova (7 Seater)", "Tempo Traveller (12-17 Seats)", "Luxury Car"];
+const vehicles = ["Sedan (4 Seater)", "SUV Innova (7 Seater)", "Luxury Car"];
 
 export function Booking() {
   const [form, setForm] = useState(initial);

@@ -76,17 +76,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Sri Vijaya Durga Cars And Travels — Amalapuram's most trusted car rental service. Sedan, SUV, Innova, Tempo Traveller, Luxury cars. Outstation, Airport, Wedding, Tours. Open 24/7. Call +91 78932 28193.",
+          "Sri Vijaya Durga Cars And Travels — Amalapuram's most trusted car rental service. Sedan, SUV, Innova, Luxury cars. Outstation, Airport, Wedding, Tours. Open 24/7. Call +91 78932 28193.",
       },
       {
         name: "keywords",
         content:
-          "car rental amalapuram, sri vijya durga travels, innova crysta amalapuram, outstation cab amalapuram, airport transfer andhra pradesh, tempo traveller amalapuram, cab service 533201",
+          "car rental amalapuram, sri vijya durga travels, innova crysta amalapuram, outstation cab amalapuram, airport transfer andhra pradesh, cab service 533201",
       },
       { property: "og:title", content: "Sri Vijaya Durga Cars And Travels Amalapuram | Premium Car Rentals 24/7" },
       {
         property: "og:description",
-        content: "Amalapuram's most trusted car rental — Sedan, SUV, Innova, Tempo, Luxury. Open 24/7. Call +91 78932 28193.",
+        content: "Amalapuram's most trusted car rental — Sedan, SUV, Innova, Luxury. Open 24/7. Call +91 78932 28193.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
